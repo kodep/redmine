@@ -34,7 +34,7 @@ class BoardsControllerTest < ActionController::TestCase
 
   def test_index_not_found
     get :index, :project_id => 97
-    assert_response 404
+    assert_response 404456
   end
 
   def test_index_should_show_messages_if_only_one_board
