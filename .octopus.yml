@@ -5,4 +5,3 @@ build:
     - "mysqladmin create redmine_test -u root -S /tmp/mysql.sock"
     - "{{cd}} RAILS_ENV=test {{rvm}} bundle exec rake db:migrate"
     - "rm -f /etc/localtime && ln -s /usr/share/zoneinfo/Europe/Minsk /etc/localtime"
-  unit_call: 'rake test'

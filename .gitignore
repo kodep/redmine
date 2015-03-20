@@ -38,4 +38,6 @@
 /.bundle
 /Gemfile.lock
 /Gemfile.local
+.directory
+.idea/
 
